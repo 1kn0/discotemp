@@ -1,0 +1,71 @@
+{
+  "type": "layout",
+  "accent_colour": "#57F287",
+  "blocks": [
+    {
+      "type": "gallery",
+      "items": [
+        {
+          "url": "https://i.pinimg.com/736x/c3/79/14/c3791421b6353b3edb8e4e8d919ebf90.jpg",
+          "description": "Welcome banner",
+          "spoiler": false
+        }
+      ]
+    },
+
+    { "type": "separator", "divider": true, "spacing": "large" },
+
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Welcome to {guild}, {user}! "
+    },
+    {
+      "type": "subtext",
+      "content": "You're member #{member_count} — glad to have you here."
+    },
+
+    { "type": "separator", "divider": true, "spacing": "small" },
+
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Before you dive in"
+    },
+    {
+      "type": "section",
+      "text": [
+        "Read the **#rules** channel first — it takes 2 minutes.",
+        "Grab your roles in **#roles** to unlock more channels.",
+        "Say hi and introduce yourself in **#introductions**."
+      ],
+      "button": {
+        "label": "Read the Rules",
+        "style": 5,
+        "emoji": "📜",
+        "url": "https://never.spcfy.eu"
+      }
+    },
+
+    { "type": "separator", "divider": true, "spacing": "small" },
+
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Need help?"
+    },
+    {
+      "type": "section",
+      "text": [
+        "Our mod team is around if you get stuck.",
+        "Open a ticket anytime in **#support**."
+      ],
+      "button": {
+        "label": "Get Support",
+        "style": 5,
+        "emoji": "🎫",
+        "url": "https://never.spcfy.eu"
+      }
+    }
+  ]
+}

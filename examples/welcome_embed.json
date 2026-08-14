@@ -1,0 +1,17 @@
+{
+  "type": "embed",
+  "title": "Welcome {user.name}!",
+  "description": "Welcome {user} to **{guild}**! We're now at {member_count} members.",
+  "color": "#5865F2",
+  "image": "https://i.pinimg.com/736x/c3/79/14/c3791421b6353b3edb8e4e8d919ebf90.jpg",
+  "footer": "Glad to have you here.",
+  "fields": [
+    { "name": "Rules", "value": "Check #rules before posting.", "inline": true },
+    { "name": "Roles", "value": "Grab your roles in #roles.", "inline": true }
+  ],
+  "button": {
+    "label": "Rules",
+    "style": 5,
+    "url": "https://never.spcfy.eu"
+  }
+}

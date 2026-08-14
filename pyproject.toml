@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discotemp"
+version = "1.0.0"
+description = "JSON-driven Discord bot building blocks (welcome messages, templates)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [ { name = "never", email = "knownxiter@gmail.com" } ]
+dependencies = ["discord.py>=2.6", "discokit>=1.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["discotemp*"]
