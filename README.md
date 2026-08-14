@@ -120,6 +120,11 @@ join), so config mistakes fail fast with a clear `SchemaError` message.
 See `examples/welcome.json`, `examples/welcome_embed.json`, and
 `examples/bot.py` for a full runnable bot.
 
+## Credits
+
+[Never](https://github.com/1kn0)
+[PR1ZM0](https://github.com/pr1zmo-vrz)
+
 ## License
 
 MIT
