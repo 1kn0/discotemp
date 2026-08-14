@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "discotemp"
-version = "1.0.1"
+version = "1.0.2"
 description = "JSON-driven Discord bot building blocks (welcome messages, templates)."
 readme = "README.md"
 requires-python = ">=3.8"
