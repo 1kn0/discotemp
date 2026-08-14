@@ -14,7 +14,7 @@ from .schema import SchemaError, validate
 logger = logging.getLogger("discordtemplates.welcomebot")
 
 
-class WelcomeBot:
+class welcomebot:
 
 
     def __init__(
@@ -68,7 +68,7 @@ class WelcomeBot:
                 channel = await member.guild.fetch_channel(self.channel_id)
             except discord.HTTPException:
                 logger.warning(
-                    "WelcomeBot: channel %s not found in guild %s",
+                    "welcomebot: channel %s not found in guild %s",
                     self.channel_id,
                     member.guild.id,
                 )

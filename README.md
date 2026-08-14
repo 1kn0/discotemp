@@ -21,7 +21,7 @@ Requires `discord.py>=2.6` and `discokit>=1.0.0` (installed automatically).
 ```python
 from discotemp import welcomebot
 
-welcome = WelcomeBot(
+welcome = welcomebot.WelcomeBot(
     channel_id=123456789012345678,
     template="welcome.json",
 )
@@ -31,7 +31,7 @@ welcome.attach(bot)   # hooks on_member_join automatically
 Or wire it manually:
 
 ```python
-welcome = WelcomeBot(channel_id=..., template="welcome.json")
+welcome = welcomebot.WelcomeBot(channel_id=..., template="welcome.json")
 
 @bot.event
 async def on_member_join(member):
@@ -112,7 +112,7 @@ Usable inside any `text` / `content` / `title` / `description` string:
 
 ## Validation
 
-The JSON is validated at `WelcomeBot(...)` construction time (not on first
+The JSON is validated at `welcomebot(...)` construction time (not on first
 join), so config mistakes fail fast with a clear `SchemaError` message.
 
 ## Examples

@@ -11,7 +11,7 @@ class SchemaError(ValueError):
     pass
 
 
-class WelcomeBot:
+class welcomebot:
     def __init__(self, channel_id: int, template: Union[str, Dict[str, Any]]):
         self.channel_id = int(channel_id)
         self._raw_template = template
@@ -41,7 +41,7 @@ class WelcomeBot:
 
     async def send(self, member: discord.Member) -> None:
         if self._bot is None:
-            raise RuntimeError("WelcomeBot is not attached to a bot. Call attach(bot) first.")
+            raise RuntimeError("welcomebot is not attached to a bot. Call attach(bot) first.")
 
         guild = member.guild
         channel = self._bot.get_channel(self.channel_id)

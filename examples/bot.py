@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-from discordtemplates import WelcomeBot
+from discotemp import welcomebot
 
 intents = discord.Intents.default()
 intents.members = True  
@@ -9,7 +9,7 @@ intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 
-welcome = WelcomeBot(
+welcome = welcomebot.WelcomeBot(
     channel_id=1537379426461810721,  # <- replace with your welcome channel ID
     template="welcome.json",         # or "welcome_embed.json", or a dict
 )
@@ -31,4 +31,4 @@ async def on_ready():
 
 
 if __name__ == "__main__":
-    bot.run("")
+    bot.run("MTUzNzM4OTY2Njk0NzMwMTM3OA.GYGzP9.pO6Aczys7M8W6G4ckY_7xZ6cFpRdAq-K_rfuRA")
