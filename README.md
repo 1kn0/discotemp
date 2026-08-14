@@ -122,7 +122,7 @@ See `examples/welcome.json`, `examples/welcome_embed.json`, and
 
 ## Credits
 
-- [Never](https://github.com/1kn0),
+- [Never](https://github.com/1kn0)
 - [PR1ZM0](https://github.com/pr1zmo-vrz)
 
 ## License
