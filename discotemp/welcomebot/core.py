@@ -11,7 +11,7 @@ import discord
 from .renderer import render_welcome
 from .schema import SchemaError, validate
 
-logger = logging.getLogger("discordtemplates.welcomebot")
+logger = logging.getLogger("discotemp.welcomebot")
 
 
 class welcomebot:
